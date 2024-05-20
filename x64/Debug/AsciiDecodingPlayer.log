@@ -1,0 +1,12 @@
+﻿  tui.c
+C:\Users\SIKLAB\source\repos\AsciiDecodingPlayer\image_player_test.h(27,9): warning C4013: 'Sleep'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  (소스 파일 'tui.c'을(를) 컴파일하는 중)
+  
+C:\Users\SIKLAB\source\repos\AsciiDecodingPlayer\image_player_test.h(40,29): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (소스 파일 'tui.c'을(를) 컴파일하는 중)
+  
+C:\Users\SIKLAB\source\repos\AsciiDecodingPlayer\image_player_test.h(93,37): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'tui.c'을(를) 컴파일하는 중)
+  
+C:\Users\SIKLAB\source\repos\AsciiDecodingPlayer\tui.c(35,19): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  AsciiDecodingPlayer.vcxproj -> C:\Users\SIKLAB\source\repos\AsciiDecodingPlayer\x64\Debug\AsciiDecodingPlayer.exe
