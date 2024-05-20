@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "image_player.h"
 
 #define STB_IMAGE_IMPLEMENTATION
 #include "stb_image.h"
@@ -11,7 +12,7 @@
 const char CHARS[] = " .,-~:;=!*#$@";
 #define BUFFER_SIZE (720 * 720 * 1) // 고정 버퍼 (NW * NW * 2 ) 권장
 
-int img_resolution = 220;
+int img_resolution = 100;
 int invert_colors_set_img = 0;
 int img_delay = 10; // 이미지 출력 딜레이
 char* img_addr = "imgs/peter.jpg";
@@ -148,7 +149,7 @@ void topbar_img(int screen_width, char *filename) {
     printf("\n");
 }
 
-int main() {
+int image_player(void) {
     // Load image using stb_image
     int width, height, channels;
     unsigned char* img = stbi_load(img_addr, &width, &height, &channels, 0); // 이미지 주소에서 가져오기
