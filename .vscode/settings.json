@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "adp_player.h": "c",
+        "string.h": "c",
+        "ncurses.h": "c",
+        "locale.h": "c",
+        "swresample.h": "c"
+    }
+}

@@ -1,0 +1,8 @@
+img_resolution: 360
+img_delay: 20
+video_resolution: 480
+video_delay: 20
+video_interval: 1
+img_addr: ./imgs
+video_addr: ./videos
+image_to_text_addr: ./save
